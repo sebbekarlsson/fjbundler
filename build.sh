@@ -1,3 +1,5 @@
+FJB_DIR=$HOME/workspace/fjb
+
 mkdir -p dist
 SRCFILE=src/index.html
 STATICDIR=src/static
@@ -13,4 +15,5 @@ rm $TMPFILE
 cp -r $STATICDIR/img $DISTDIR/.
 # favicons
 cp $STATICDIR/img/fav/* $DISTDIR/.
-cp -r ../graphs $DISTDIR/.
+cp -r $FJB_DIR/graphs $DISTDIR/.
+cp -r $FJB_DIR/benchmarks.html ./src/include/.
