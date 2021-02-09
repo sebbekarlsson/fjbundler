@@ -1,5 +1,11 @@
 {
   "title": "FJB - Fast Javascript Bundler",
   "headline": "Fast Javascript Bundler",
-  "description": "The bundler who doesn't get in your way"
+  "description": "The bundler who doesn't get in your way",
+  "navItems": [
+    {
+      "label": "home",
+      "href": "/"
+    }
+  ]
 }

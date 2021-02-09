@@ -13,10 +13,12 @@
         </style>
         <script type='text/javascript'>{{ cate ("src/static/scripts.gpp") }}</script>
     </head>
-    <body>
+    <body> 
         <div id="root">
+            {{ cate ("src/nav.html") }}
             (@#%block root @)
         </div>
+        <script type='text/javascript'>{{ cat ("src/static/js/nav.js") }}</script>
     </body>
     <footer class="footer">
       <div class="content has-text-centered">

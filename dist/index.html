@@ -203,9 +203,36 @@ hljs.registerLanguage("yaml",function(){"use strict";return function(e){var n="t
 });
 </script>
     </head>
-    <body>
+    <body> 
         <div id="root">
-            <section class="hero is-danger is-bold">
+            <nav class="navbar is-dark">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="img/logo.png" alt="Logo">
+      </a>
+      <span class="navbar-burger is-mobile" data-target="navbarMenuHeroB">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenuHeroB" class="navbar-menu is-mobile">
+      <div class="navbar-end">
+        
+<a href="/" class="navbar-item is-active">
+
+home</a> 
+<span class="navbar-item">
+          <a href="https://github.com/sebbekarlsson/fjb" target="_blank" class="button is-danger is-inverted">
+            <span>Get it</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero is-danger is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -1481,6 +1508,25 @@ Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
   </div>
 </section>
 </div>
+        <script type='text/javascript'>document.addEventListener("DOMContentLoaded", () => {
+  const $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-burger"),
+    0
+  );
+
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach((el) => {
+      el.addEventListener("click", () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        el.classList.toggle("is-active");
+        $target.classList.toggle("is-active");
+      });
+    });
+  }
+});
+</script>
     </body>
     <footer class="footer">
       <div class="content has-text-centered">
