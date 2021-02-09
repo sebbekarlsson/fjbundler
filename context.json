@@ -5,7 +5,11 @@
   "navItems": [
     {
       "label": "home",
-      "href": "/"
+      "href": "index.html"
+    },
+    {
+      "label": "docs",
+      "href": "docs.html"
     }
   ]
 }

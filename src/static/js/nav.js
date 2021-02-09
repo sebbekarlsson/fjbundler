@@ -15,4 +15,19 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+
+  const navItems = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-item"),
+    0
+  );
+
+  if (navItems.length > 0) {
+    navItems.forEach((el) => {
+      if (
+        window.location.href.toString().indexOf(el.getAttribute("href")) > -1
+      ) {
+        el.classList.toggle("is-active");
+      }
+    });
+  }
 });
