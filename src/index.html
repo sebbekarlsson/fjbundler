@@ -1,0 +1,22 @@
+#%extends "src/base.html"
+
+
+(@#%block root
+<section class="hero is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ headline }}
+      </h1>
+      <h2 class="subtitle">
+        {{ description }} 
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    {{ cat ("src/include/benchmarks.html") }}
+  </div>
+</section>
+@)

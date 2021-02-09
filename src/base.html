@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{ cat ("src/fav.html") }}
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Self employed IT-consultant / Programmer">
+        <meta name="keywords" content="IT-consultant,programmer,coder,consultant,developer,development,technology,tech,CV,resume">
+        <title>{{ title }}</title>
+        <style>
+            {{ cate ("src/static/styles.gpp") }}
+        </style>
+        <script type='text/javascript'>{{ cate ("src/static/scripts.gpp") }}</script>
+    </head>
+    <body>
+        <div id="root">
+            (@#%block root @)
+        </div>
+    </body>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        {{ cate ("src/social.html") }}
+      </div>
+      <div class="content has-text-centered">
+        <strong>Created using</strong> <a href="https://github.com/sebbekarlsson/gpp">https://github.com/sebbekarlsson/gpp</a>
+      </div>
+    </footer>
+</html>
