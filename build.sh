@@ -7,7 +7,7 @@ STATICDIR=src/static
 DISTDIR=dist
 DISTFILE=$DISTDIR/index.html
 TMPFILE=tmp.html
-gpp $SRCFILE > $TMPFILE;
+gpp $SRCFILE | tr -d \\n > $TMPFILE;
 gpp $DOCSFILE > dist/docs.html;
 #./minify.sh $TMPFILE > $DISTFILE
 cat $TMPFILE > $DISTFILE
