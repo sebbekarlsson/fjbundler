@@ -12,13 +12,13 @@
         <style>
             {{ cate ("src/static/styles.gpp") }}
         </style>
-        <script type='text/javascript'>{{ cate ("src/static/scripts.gpp") }}</script>
     </head>
     <body> 
         <div id="root">
             {{ cate ("src/nav.html") }}
             (@#%block root @)
         </div>
+        <script type='text/javascript'>{{ cate ("src/static/scripts.gpp") }}</script>
         <script type='text/javascript'>{{ cat ("src/static/js/nav.js") }}</script>
     </body>
     <footer class="footer">
