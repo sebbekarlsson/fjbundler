@@ -7,7 +7,12 @@ STATICDIR=src/static
 DISTDIR=dist
 DISTFILE=$DISTDIR/index.html
 TMPFILE=tmp.html
-gpp $SRCFILE > $TMPFILE;
+
+virtualenv -p /usr/bin/python3.9 ./venv
+source ./venv/bin/activate
+pip install htmlmin
+
+gpp $SRCFILE | htmlmin > $TMPFILE;
 gpp $DOCSFILE > dist/docs.html;
 #./minify.sh $TMPFILE > $DISTFILE
 cat $TMPFILE > $DISTFILE
