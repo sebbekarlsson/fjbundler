@@ -6,6 +6,8 @@
   <h1>Fast Javascript Bundler</h1>
 </p>
 
+![Compile and test](https://github.com/sebbekarlsson/fjb/workflows/Compile%20and%20test/badge.svg?branch=master)
+
 ## What?
 > It is what it says it is.  
 > However, this bundler aims to be a monolithic does-it-all type of bundler;
@@ -43,6 +45,7 @@ fjb index.js
 - [x] JSX support
 - [x] Importing JSON
 - [x] Importing CSS
+- [x] Importing & transpiling SCSS
 - [x] Automatic JSX format detection
 - [x] [Plugin support](PLUGINS.md)
 - [x] Removing dead code (Tree shaking)
@@ -52,7 +55,6 @@ fjb index.js
 ### Planned Features
 - [ ] TypeScript support
 - [ ] Lazy imports
-- [ ] SCSS support
 
 ## Example
 > Below is an example of some code that is **100%** supported.  
