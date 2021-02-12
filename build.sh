@@ -1,4 +1,3 @@
-# build
 FJB_DIR=$HOME/workspace/fjb
 
 mkdir -p dist
