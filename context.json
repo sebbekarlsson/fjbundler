@@ -8,6 +8,14 @@
       "href": "index.html"
     },
     {
+      "label": "benchmarks",
+      "href": "benchmarks.html"
+    },
+    {
+      "label": "news",
+      "href": "news.html"
+    },
+    {
       "label": "docs",
       "href": "docs.html"
     }

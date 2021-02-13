@@ -1,1 +1,4 @@
-hljs.initHighlightingOnLoad();
+import { initializeNav } from './nav';
+
+
+initializeNav();

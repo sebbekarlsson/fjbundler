@@ -1,0 +1,45 @@
+#%extends "src/base.html"
+
+
+(@#%block root
+<section class="hero is-danger is-fullheight">
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <h1 class="title has-text-centered">
+        {{ headline }}
+      </h1>
+      <p class="subtitle has-text-centered">
+        {{ description }} 
+      </p>
+      <a class='button is-dark is-large' title='see benchmarks' href='benchmarks.html'>Benchmarks</a>
+    </div>
+  </div>
+</section>
+<section class='section content'>
+  <div class='columns'>
+    <div class='column'>
+      <h1>The fast Javascript Bundler</h1>
+      <p>
+      Tired of spending time on compilation?<br/>
+      Tired of spending time on configurations?<br/>
+      Tired of spending too much attention on a bundler?<br/>
+      </p>
+      <p>
+        Then maybe FJB is for you.
+      </p>
+      <a href='docs.html'>Read More</a>
+    </div>
+    <div class='column has-text-centered is-hidden-mobile'>
+      <img src='img/logo.png' style='max-width: 200px'/>
+    </div>
+    <div class='column'>
+      <h1>Get FJB</h1>
+      <p>
+        You can find the source code and instructions on how to install FJB
+        over at Github.
+      </p>
+      <a class='button is-danger is-medium' target='_blank' href='https://github.com/sebbekarlsson/fjb'>Take me there</a>
+    </div>
+  </div>
+</section>
+@)

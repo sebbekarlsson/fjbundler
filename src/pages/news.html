@@ -1,0 +1,29 @@
+#%extends "src/content.html"
+
+{{ commits = load("commits.json") }}
+
+(@#%block content
+<section class="section content">
+ <h1 class='title has-text-centered'>Recent Upates</h1>
+ <table class='table is-striped is-fullwidth is-mobile'>
+    <thead>
+      <tr>
+        <th>author</th>
+        <th>date</th>
+        <th>message</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{
+        map(commits, (@
+          <tr>
+            <td>{{ $0.commit.author.name }}</td>
+            <td>{{ $0.commit.author.date }}</td>
+            <td>{{ $0.commit.message }}</td>
+          </tr>
+        @))
+      }}
+    </tbody>
+  </table>
+</section>
+@)

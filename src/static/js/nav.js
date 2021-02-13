@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+export function initializeNav() {
   const $navbarBurgers = Array.prototype.slice.call(
     document.querySelectorAll(".navbar-burger"),
     0
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const navItems = Array.prototype.slice.call(
-    document.querySelectorAll(".navbar-item"),
+    document.querySelectorAll(".navbar-item:not(.main-item)"),
     0
   );
 
@@ -30,4 +30,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-});
+}
