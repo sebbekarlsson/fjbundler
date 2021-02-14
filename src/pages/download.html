@@ -1,0 +1,40 @@
+#%extends "src/content.html"
+
+{{ releases = load("releases.json") }}
+
+(@#%block content
+<section class="section content">
+ <h1 class='title has-text-centered'>Available Releases</h1>
+ <p class='has-text-centered'>Below is a list of pre-compiled packages</p>
+</section>
+<section class='section content'>
+ <table class='table is-striped is-fullwidth is-mobile'>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th class='is-hidden-mobile'>size</th>
+        <th class='is-hidden-mobile' title="Number of people who has downloaded this item">downloads</th>
+        <th colspan="2">date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{
+        map(releases, (@
+
+          {{
+            map($0.assets, (@
+              <tr>
+                <td>{{ $0.name }}</td>
+                <td class='is-hidden-mobile'>{{ $0.size }}</td>
+                <td class='is-hidden-mobile'>{{ $0.download_count }}</td>
+                <td>{{ $0.updated_at }}</td>
+                <td><a class='button is-dark' href='{{ $0.browser_download_url }}'>Download</a></td>
+              </tr>
+            @))
+          }}
+        @))
+      }}
+    </tbody>
+  </table>
+</section>
+@)

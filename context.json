@@ -19,5 +19,10 @@
       "label": "docs",
       "href": "docs.html"
     }
+    ,
+    {
+      "label": "download",
+      "href": "download.html"
+    }
   ]
 }

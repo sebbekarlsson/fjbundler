@@ -16,7 +16,7 @@ js=dist.js
 .PHONY:
 all: $(objects)
 
-$(objects): $(fjbdata) $(dist) commits.json $(js)
+$(objects): $(fjbdata) $(dist) commits.json releases.json $(js)
 	gpp src/pages/$(notdir $@) | ./venv/bin/htmlmin > $@
 
 htmlmin:
@@ -40,6 +40,10 @@ $(js):
 commits.json:
 	@echo Downloading commits
 	curl https://api.github.com/repos/sebbekarlsson/fjb/commits > commits.json
+
+releases.json:
+	@echo Downloading releases
+	curl https://api.github.com/repos/sebbekarlsson/fjb/releases > releases.json
 
 
 clean:
