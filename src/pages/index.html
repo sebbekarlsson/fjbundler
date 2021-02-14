@@ -1,17 +1,22 @@
 #%extends "src/base.html"
 
-
 (@#%block root
-<section class="hero is-danger is-fullheight">
+<section class="hero is-danger is-fullheight main-hero">
   <div class="hero-body has-text-centered">
     <div class="container">
-      <h1 class="title has-text-centered">
-        {{ headline }}
-      </h1>
-      <p class="subtitle has-text-centered">
-      {{ description }} 
-      </p>
-      <a class='button is-dark is-large' id="benchmarks_button" title='see benchmarks' href='benchmarks.html'>Benchmarks</a>
+      <div class='columns is-vcentered'>
+        <div class='column mb-4-mobile'>
+          {{ cate("src/maininfo.html") }}
+        </div> 
+        <div class='column'>
+          {{ cat("src/static/img/overview.svg") }}
+
+          <div style='white-space: wrap;'>
+            <i>We're always improving, come back later for better results</i>
+            {{ cat("src/static/img/emoji/wink_tounge.svg") }}
+          </div>
+        </div>
+      </div> 
     </div>
   </div>
 </section>
@@ -19,7 +24,7 @@
   <div id='terminal'></div>
 </section>
 <section class='section content has-text-centered'>
-  <img src='img/logo.png' style='max-width: 200px'/>
+  <img alt='The fast javascript bundler logo' src='img/logo.png' style='max-width: 200px'/>
 </section>
 <section class='section content has-text-centered'>
   <p>

@@ -30,6 +30,7 @@ $(dist):
 	cp -r $(STATICDIR)/img $@
 	cp -r $(STATICDIR)/img/fav/* $@/
 	cp -r $(FJB_DIR)/graphs $@/
+	cp -r $(FJB_DIR)/graphs/overview.svg src/static/img/
 	cp -r $(FJB_DIR)/benchmarks.html ./src/include/.
 	cp -r $(FJB_DIR)/README.md ./FJB_README.md
 
