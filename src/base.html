@@ -20,7 +20,8 @@
             {{ cate ("src/static/styles.gpp") }}
         </style>
     </head>
-    <body> 
+    <body>
+        {{ cat ("src/tags.html") }}
         <div id="root">
             {{ cate ("src/nav.html") }} 
             (@#%block root @)

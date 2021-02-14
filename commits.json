@@ -1,5 +1,326 @@
 [
   {
+    "sha": "fda3097c892a24f8d49787c2d7e24891b71b70b8",
+    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OmZkYTMwOTdjODkyYTI0ZjhkNDk3ODdjMmQ3ZTI0ODkxYjcxYjcwYjg=",
+    "commit": {
+      "author": {
+        "name": "Sebastian Karlsson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T18:37:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-02-13T18:37:08Z"
+      },
+      "message": "Merge pull request #31 from sebbekarlsson/bugfix-evaluation\n\ndo not follow pointers on evaluation",
+      "tree": {
+        "sha": "93b2edbb28dc471462d7f02c3e223e23f617796d",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/93b2edbb28dc471462d7f02c3e223e23f617796d"
+      },
+      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/fda3097c892a24f8d49787c2d7e24891b71b70b8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgKBxUCRBK7hj4Ov3rIwAAdHIIAGU5I2Q8X2JcopvkDkep0hiJ\nF0rDcC1lnqlMKJ0wzK/qpl3/WwgzzInDU+n4SLg0CEdVrYyE568olLf9Ft59LQsd\nRUc9YPMi72il0vnE3cqZk2O/oG2OwWzRjkEqkPypnkos6XiUworX40wKT3iQ5KeE\nxquhHDbLA5sle4RhTFtyOHpUy52nY51KNa0T2CIHVrIUfkdHtYPscPIrNZoT4f0w\npOfb0vjghmGPAcbcTen9ENF77SwUWjaiqc4XV6j9mJtwSggI9soHnTEGq1SD+KhY\nttatX4dMXBE16y5wbDuc6G4N+p8jIkh6UDRvsM6d4iblLf6LfP8hDTwH3NZ9GNQ=\n=y9lW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 93b2edbb28dc471462d7f02c3e223e23f617796d\nparent e4ff3afa53878218ec4deef7601903b6e284b718\nparent bf9e22b152696253defea741ed44caf32169e055\nauthor Sebastian Karlsson <sebbekarlsson97@gmail.com> 1613241428 +0100\ncommitter GitHub <noreply@github.com> 1613241428 +0100\n\nMerge pull request #31 from sebbekarlsson/bugfix-evaluation\n\ndo not follow pointers on evaluation"
+      }
+    },
+    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/fda3097c892a24f8d49787c2d7e24891b71b70b8",
+    "html_url": "https://github.com/sebbekarlsson/fjb/commit/fda3097c892a24f8d49787c2d7e24891b71b70b8",
+    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/fda3097c892a24f8d49787c2d7e24891b71b70b8/comments",
+    "author": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e4ff3afa53878218ec4deef7601903b6e284b718",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/e4ff3afa53878218ec4deef7601903b6e284b718",
+        "html_url": "https://github.com/sebbekarlsson/fjb/commit/e4ff3afa53878218ec4deef7601903b6e284b718"
+      },
+      {
+        "sha": "bf9e22b152696253defea741ed44caf32169e055",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/bf9e22b152696253defea741ed44caf32169e055",
+        "html_url": "https://github.com/sebbekarlsson/fjb/commit/bf9e22b152696253defea741ed44caf32169e055"
+      }
+    ]
+  },
+  {
+    "sha": "bf9e22b152696253defea741ed44caf32169e055",
+    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OmJmOWUyMmIxNTI2OTYyNTNkZWZlYTc0MWVkNDRjYWYzMjE2OWUwNTU=",
+    "commit": {
+      "author": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T18:36:17Z"
+      },
+      "committer": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T18:36:17Z"
+      },
+      "message": "regenerate benchmarks",
+      "tree": {
+        "sha": "93b2edbb28dc471462d7f02c3e223e23f617796d",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/93b2edbb28dc471462d7f02c3e223e23f617796d"
+      },
+      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/bf9e22b152696253defea741ed44caf32169e055",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/bf9e22b152696253defea741ed44caf32169e055",
+    "html_url": "https://github.com/sebbekarlsson/fjb/commit/bf9e22b152696253defea741ed44caf32169e055",
+    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/bf9e22b152696253defea741ed44caf32169e055/comments",
+    "author": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+        "html_url": "https://github.com/sebbekarlsson/fjb/commit/9844d380a4b7d23524fe1eaddaa7c94c142a4937"
+      }
+    ]
+  },
+  {
+    "sha": "9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4Ojk4NDRkMzgwYTRiN2QyMzUyNGZlMWVhZGRhYTdjOTRjMTQyYTQ5Mzc=",
+    "commit": {
+      "author": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T17:03:09Z"
+      },
+      "committer": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T17:03:09Z"
+      },
+      "message": "fix bugs with operators",
+      "tree": {
+        "sha": "58a5dd138778cad1efd9f2d5eda32feaa367992d",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/58a5dd138778cad1efd9f2d5eda32feaa367992d"
+      },
+      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+    "html_url": "https://github.com/sebbekarlsson/fjb/commit/9844d380a4b7d23524fe1eaddaa7c94c142a4937",
+    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9844d380a4b7d23524fe1eaddaa7c94c142a4937/comments",
+    "author": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+        "html_url": "https://github.com/sebbekarlsson/fjb/commit/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d"
+      }
+    ]
+  },
+  {
+    "sha": "9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OjlmNDgyNDY5M2VlYzZmMTZlYjQ0M2JjOGI1YjIwZmJkMzU0MGVlMWQ=",
+    "commit": {
+      "author": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T14:48:11Z"
+      },
+      "committer": {
+        "name": "ianertson",
+        "email": "sebbekarlsson97@gmail.com",
+        "date": "2021-02-13T14:48:11Z"
+      },
+      "message": "do not follow pointers on evaluation",
+      "tree": {
+        "sha": "d7d69bc265775a88eb400e5ca9f0d4c7ecf4add8",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/d7d69bc265775a88eb400e5ca9f0d4c7ecf4add8"
+      },
+      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+    "html_url": "https://github.com/sebbekarlsson/fjb/commit/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d",
+    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9f4824693eec6f16eb443bc8b5b20fbd3540ee1d/comments",
+    "author": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sebbekarlsson",
+      "id": 6907725,
+      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebbekarlsson",
+      "html_url": "https://github.com/sebbekarlsson",
+      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
+      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
+      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
+      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e4ff3afa53878218ec4deef7601903b6e284b718",
+        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/e4ff3afa53878218ec4deef7601903b6e284b718",
+        "html_url": "https://github.com/sebbekarlsson/fjb/commit/e4ff3afa53878218ec4deef7601903b6e284b718"
+      }
+    ]
+  },
+  {
     "sha": "e4ff3afa53878218ec4deef7601903b6e284b718",
     "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OmU0ZmYzYWZhNTM4NzgyMThlYzRkZWVmNzYwMTkwM2I2ZTI4NGI3MTg=",
     "commit": {
@@ -2065,322 +2386,6 @@
         "sha": "9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
         "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
         "html_url": "https://github.com/sebbekarlsson/fjb/commit/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4"
-      }
-    ]
-  },
-  {
-    "sha": "9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
-    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4Ojk2NjRjM2ZhMWVlODJjYzQ4ZjM2NzU3ZWU5ODlmYmFlMThjZmM2ZjQ=",
-    "commit": {
-      "author": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:30:57Z"
-      },
-      "committer": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:30:57Z"
-      },
-      "message": "update workflow",
-      "tree": {
-        "sha": "87bbc9ae1e9b0f586b5575c58b1ada3e3bd0ca04",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/87bbc9ae1e9b0f586b5575c58b1ada3e3bd0ca04"
-      },
-      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
-    "html_url": "https://github.com/sebbekarlsson/fjb/commit/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4",
-    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/9664c3fa1ee82cc48f36757ee989fbae18cfc6f4/comments",
-    "author": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "581ef251c455829cd9bcf124d11547f2763dbea3",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/581ef251c455829cd9bcf124d11547f2763dbea3",
-        "html_url": "https://github.com/sebbekarlsson/fjb/commit/581ef251c455829cd9bcf124d11547f2763dbea3"
-      }
-    ]
-  },
-  {
-    "sha": "581ef251c455829cd9bcf124d11547f2763dbea3",
-    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OjU4MWVmMjUxYzQ1NTgyOWNkOWJjZjEyNGQxMTU0N2YyNzYzZGJlYTM=",
-    "commit": {
-      "author": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:28:37Z"
-      },
-      "committer": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:28:37Z"
-      },
-      "message": "update submoule",
-      "tree": {
-        "sha": "001a168e90d3f366a9a871695fe688928529f758",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/001a168e90d3f366a9a871695fe688928529f758"
-      },
-      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/581ef251c455829cd9bcf124d11547f2763dbea3",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/581ef251c455829cd9bcf124d11547f2763dbea3",
-    "html_url": "https://github.com/sebbekarlsson/fjb/commit/581ef251c455829cd9bcf124d11547f2763dbea3",
-    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/581ef251c455829cd9bcf124d11547f2763dbea3/comments",
-    "author": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-        "html_url": "https://github.com/sebbekarlsson/fjb/commit/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997"
-      }
-    ]
-  },
-  {
-    "sha": "1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OjFlMmZkOWUzZDZmNDFjMGM2MjVlZDNkMTMzYWRlZTBlODIwZGM5OTc=",
-    "commit": {
-      "author": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:24:55Z"
-      },
-      "committer": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:24:55Z"
-      },
-      "message": "update workflow",
-      "tree": {
-        "sha": "27b261b2a03609e53f5df4cf05bb0520c68a9cc4",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/27b261b2a03609e53f5df4cf05bb0520c68a9cc4"
-      },
-      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-    "html_url": "https://github.com/sebbekarlsson/fjb/commit/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997",
-    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/1e2fd9e3d6f41c0c625ed3d133adee0e820dc997/comments",
-    "author": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-        "html_url": "https://github.com/sebbekarlsson/fjb/commit/a93f38bd8c296ef896b6b97ccd36f104bbeca8de"
-      }
-    ]
-  },
-  {
-    "sha": "a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-    "node_id": "MDY6Q29tbWl0MzIzNDI1OTQ4OmE5M2YzOGJkOGMyOTZlZjg5NmI2Yjk3Y2NkMzZmMTA0YmJlY2E4ZGU=",
-    "commit": {
-      "author": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:19:01Z"
-      },
-      "committer": {
-        "name": "ianertson",
-        "email": "sebbekarlsson97@gmail.com",
-        "date": "2021-02-11T18:19:01Z"
-      },
-      "message": "update workflow",
-      "tree": {
-        "sha": "286399029449b8870b872dd7a0dc81b7d447179b",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/trees/286399029449b8870b872dd7a0dc81b7d447179b"
-      },
-      "url": "https://api.github.com/repos/sebbekarlsson/fjb/git/commits/a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-    "html_url": "https://github.com/sebbekarlsson/fjb/commit/a93f38bd8c296ef896b6b97ccd36f104bbeca8de",
-    "comments_url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/a93f38bd8c296ef896b6b97ccd36f104bbeca8de/comments",
-    "author": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sebbekarlsson",
-      "id": 6907725,
-      "node_id": "MDQ6VXNlcjY5MDc3MjU=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6907725?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sebbekarlsson",
-      "html_url": "https://github.com/sebbekarlsson",
-      "followers_url": "https://api.github.com/users/sebbekarlsson/followers",
-      "following_url": "https://api.github.com/users/sebbekarlsson/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sebbekarlsson/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sebbekarlsson/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sebbekarlsson/subscriptions",
-      "organizations_url": "https://api.github.com/users/sebbekarlsson/orgs",
-      "repos_url": "https://api.github.com/users/sebbekarlsson/repos",
-      "events_url": "https://api.github.com/users/sebbekarlsson/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sebbekarlsson/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c588f34653a8290cc861a814792530cc3f47e79d",
-        "url": "https://api.github.com/repos/sebbekarlsson/fjb/commits/c588f34653a8290cc861a814792530cc3f47e79d",
-        "html_url": "https://github.com/sebbekarlsson/fjb/commit/c588f34653a8290cc861a814792530cc3f47e79d"
       }
     ]
   }
