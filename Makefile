@@ -49,6 +49,7 @@ releases.json:
 clean:
 	-rm -rf ./dist
 	-rm commits.json
+	-rm releases.json
 
 lint:
 	clang-tidy src/*.c src/include/*.h
