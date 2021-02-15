@@ -36,6 +36,9 @@ A bundler should be smart enough so that the developer can focus on other things
 <h2>How does one use it?</h2>
 <p><code>bash
 fjb index.js</code></p>
+<h2>What if I want the output in a file?</h2>
+<p><code>bash
+fjb index.js &gt; dist.js</code></p>
 <h3>Features</h3>
 <ul>
 <li>[x] Being fast</li>
@@ -51,7 +54,6 @@ fjb index.js</code></p>
 <li>[x] <a href="PLUGINS.md">Plugin support</a></li>
 <li>[x] Removing dead code (Tree shaking)</li>
 <li>[x] Supports package.json</li>
-<li>[x] Importing <em>anything</em>, even when it's not exported, no matter how deeply nested it is</li>
 </ul>
 <h3>Planned Features</h3>
 <ul>
@@ -71,7 +73,16 @@ fjb index.js</code></p>
 <p>To see benchmarks, have a look at <a href="benchmarks.md">benchmarks.md</a> :fire:<br />
 You can also view them over at <a href="https://fjbundler.com">https://fjbundler.com</a></p>
 </blockquote>
-<h2>Installing</h2>
+<h2>Installing the easy way</h2>
+<h3>Using apt</h3>
+<blockquote>
+<p>The easiest way to install FJB is to head over to <a href="https://github.com/sebbekarlsson/fjb/releases">releases</a> and
+download a <code>.deb</code> file that suits you.<br />
+Then you can simply run:
+<code>bash
+sudo apt install ./&lt;filename&gt;.deb</code></p>
+</blockquote>
+<h2>Installing the complicated way</h2>
 <h3>Dependencies</h3>
 <blockquote>
 <p>To build <code>fjb</code> you will need the following:
