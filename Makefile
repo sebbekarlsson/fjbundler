@@ -36,7 +36,7 @@ $(dist):
 	cp -r $(FJB_DIR)/README.md ./FJB_README.md
 
 $(js): 
-	fjb src/static/js/app.js > $(dist)/dist.js
+	fjb src/static/js/app.js -o $(dist)/dist.js
 
 commits.json:
 	@echo Downloading commits
