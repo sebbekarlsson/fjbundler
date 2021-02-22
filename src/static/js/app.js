@@ -24,17 +24,17 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 function initImageViewer() {
-  if (!getParameterByName('callgrind')) {
-    window.location.href = window.location.href + '?callgrind=true';
+  if (!getParameterByName("callgrind")) {
+    window.location.href = window.location.href + "?callgrind=true";
   }
   document
-      .getElementById("callgrind-content")
-      .appendChild(new ImageViewer("img/callgrind.svg"));
+    .getElementById("callgrind-content")
+    .appendChild(new ImageViewer("img/callgrind.svg"));
 }
 
 const el = document.getElementById("callgrind");
 
-if (getParameterByName('callgrind')) {
+if (getParameterByName("callgrind")) {
   initImageViewer();
 }
 
